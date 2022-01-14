@@ -14,24 +14,27 @@ html {
   font-size: 300%;
   font-weight: bold;
   margin: 10px;
+  color: gold;
 }
 
 #content {
   overflow: auto;
   background-image: url(./obsidian.png);
   height: 100%;
+  font-size: larger;
   text-align: center;
   font-family: "Syne Mono", monospace;
   text-shadow: 2px 2px 2px rgb(255, 0, 255);
 }
 #homeContent {
-  font-size: larger;
+  font-size: x-large;
 }
 #navBar {
   display: flex;
   justify-content: center;
   gap: 30px;
   margin: 10px;
+  margin-bottom: 5%;
 }
 
 #navBar button {
@@ -44,4 +47,16 @@ html {
 
 #navBar button:hover {
   background-color: rgb(166, 81, 245);
+}
+
+#menuSubtitle {
+  font-size: 150%;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+#menuItems {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: row;
 }

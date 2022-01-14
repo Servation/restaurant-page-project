@@ -34,6 +34,7 @@ const createTitle = () => {
     return title;
 }
 
+
 (() => {
     const contentEl = document.getElementById("content");
     contentEl.appendChild(createTitle());
