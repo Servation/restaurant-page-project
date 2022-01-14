@@ -5,7 +5,7 @@ import loadContactPage from './contact';
 
 const loadWebsite = (() => {
     const contentEl = document.getElementById("content");
-    let title = document.createElement("h1");
+    let title = document.createElement("div");
     title.setAttribute("id", "title");
     title.textContent = "Golden Cafe";
     contentEl.appendChild(title);
